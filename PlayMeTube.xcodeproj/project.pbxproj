@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F740F341E4F904100D61132 /* PlayMeTubeLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F740F331E4F904100D61132 /* PlayMeTubeLaunch.storyboard */; };
 		C0C1EDEE1B3E8D9C00E70ABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C1EDED1B3E8D9C00E70ABF /* AppDelegate.swift */; };
 		C0C1EDF01B3E8D9C00E70ABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C1EDEF1B3E8D9C00E70ABF /* ViewController.swift */; };
 		C0C1EDF31B3E8D9C00E70ABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C1EDF11B3E8D9C00E70ABF /* Main.storyboard */; };
 		C0C1EDF51B3E8D9C00E70ABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C1EDF41B3E8D9C00E70ABF /* Images.xcassets */; };
-		C0C1EDF81B3E8D9C00E70ABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C1EDF61B3E8D9C00E70ABF /* LaunchScreen.xib */; };
-		C0C1EE041B3E8D9C00E70ABF /* YTDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C1EE031B3E8D9C00E70ABF /* YTDemoTests.swift */; };
 		C0C1EE0E1B3E8EB900E70ABF /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C1EE0D1B3E8EB900E70ABF /* PlayerViewController.swift */; };
 		C0C1EE131B3E909000E70ABF /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C0C1EE121B3E909000E70ABF /* Assets */; };
 		C0DA29B11B3EBF1B00CB71CC /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DA29B01B3EBF1B00CB71CC /* YTPlayerView.m */; };
@@ -29,16 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F740F331E4F904100D61132 /* PlayMeTubeLaunch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlayMeTubeLaunch.storyboard; sourceTree = "<group>"; };
 		C0C1EDE81B3E8D9C00E70ABF /* PlayMeTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMeTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C1EDEC1B3E8D9C00E70ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0C1EDED1B3E8D9C00E70ABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0C1EDEF1B3E8D9C00E70ABF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0C1EDF21B3E8D9C00E70ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0C1EDF41B3E8D9C00E70ABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C0C1EDF71B3E8D9C00E70ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C0C1EDFD1B3E8D9C00E70ABF /* PlayMeTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMeTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0C1EE021B3E8D9C00E70ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C1EE031B3E8D9C00E70ABF /* YTDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTDemoTests.swift; sourceTree = "<group>"; };
 		C0C1EE0D1B3E8EB900E70ABF /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		C0C1EE0F1B3E907600E70ABF /* PlayMeTube-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayMeTube-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0C1EE121B3E909000E70ABF /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
@@ -68,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				C0C1EDEA1B3E8D9C00E70ABF /* PlayMeTube */,
-				C0C1EE001B3E8D9C00E70ABF /* YTDemoTests */,
 				C0C1EDE91B3E8D9C00E70ABF /* Products */,
 				C0C1EE121B3E909000E70ABF /* Assets */,
 				C0DA29AF1B3EBF1500CB71CC /* YTPlayerView.h */,
@@ -93,7 +89,7 @@
 				C0C1EE0D1B3E8EB900E70ABF /* PlayerViewController.swift */,
 				C0C1EDF11B3E8D9C00E70ABF /* Main.storyboard */,
 				C0C1EDF41B3E8D9C00E70ABF /* Images.xcassets */,
-				C0C1EDF61B3E8D9C00E70ABF /* LaunchScreen.xib */,
+				1F740F331E4F904100D61132 /* PlayMeTubeLaunch.storyboard */,
 				C0C1EDEB1B3E8D9C00E70ABF /* Supporting Files */,
 				C0C1EE0F1B3E907600E70ABF /* PlayMeTube-Bridging-Header.h */,
 			);
@@ -105,23 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				C0C1EDEC1B3E8D9C00E70ABF /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C0C1EE001B3E8D9C00E70ABF /* YTDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				C0C1EE031B3E8D9C00E70ABF /* YTDemoTests.swift */,
-				C0C1EE011B3E8D9C00E70ABF /* Supporting Files */,
-			);
-			path = YTDemoTests;
-			sourceTree = "<group>";
-		};
-		C0C1EE011B3E8D9C00E70ABF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0C1EE021B3E8D9C00E70ABF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -211,9 +190,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F740F341E4F904100D61132 /* PlayMeTubeLaunch.storyboard in Resources */,
 				C0C1EDF31B3E8D9C00E70ABF /* Main.storyboard in Resources */,
 				C0C1EE131B3E909000E70ABF /* Assets in Resources */,
-				C0C1EDF81B3E8D9C00E70ABF /* LaunchScreen.xib in Resources */,
 				C0C1EDF51B3E8D9C00E70ABF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,7 +222,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C1EE041B3E8D9C00E70ABF /* YTDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,14 +242,6 @@
 				C0C1EDF21B3E8D9C00E70ABF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C0C1EDF61B3E8D9C00E70ABF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0C1EDF71B3E8D9C00E70ABF /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,12 +336,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X33N5HMJNJ;
 				INFOPLIST_FILE = YTDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Siddharth.PlayMeTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PlayMeTube/PlayMeTube-Bridging-Header";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,11 +354,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X33N5HMJNJ;
 				INFOPLIST_FILE = YTDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Siddharth.PlayMeTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PlayMeTube/PlayMeTube-Bridging-Header";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

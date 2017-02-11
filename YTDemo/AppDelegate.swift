@@ -3,7 +3,7 @@
 //  playMeTube
 //
 //  Created by Siddhart Patel on 5/2/16.
-//  Copyright (c) 2015 Appcoda. All rights reserved.
+//  Copyright (c) 2016 Siddharth Patel. All rights reserved.
 //
 
 import UIKit
